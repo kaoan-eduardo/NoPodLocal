@@ -1,50 +1,130 @@
-# Welcome to your Expo app 👋
+# 🚭 NoPodLocal
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+> 🧘 Aplicativo **offline** feito com **React Native + Expo** para ajudar usuários a reduzirem o uso de cigarro eletrônico.  
+> 📱 Todos os dados são armazenados **localmente no dispositivo**, sem necessidade de login ou internet.
 
-## Get started
+---
 
-1. Install dependencies
+#### 📲 Funcionalidades
 
-   ```bash
-   npm install
-   ```
+<small>
 
-2. Start the app
+- 📅 **Monitoramento Semanal**  
+  Visualize os dias da semana e a última resistência usada
 
-   ```bash
-   npx expo start
-   ```
+- 🧘 **Tela de Respiração Guiada**  
+  Um círculo animado que infla e esvazia para ajudar no controle da respiração
 
-In the output, you'll find options to open the app in a
+- 💾 **Armazenamento Local**  
+  Os dados são salvos no próprio dispositivo com persistência mesmo após fechar o app
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+</small>
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+#### ⚙️ Tecnologias Utilizadas
 
-When you're ready, run:
+<small>
+
+- ⚛️ **React Native** com [Expo](https://expo.dev/)
+- 💾 **AsyncStorage** para persistência local
+- 🧠 **React Hooks**
+- 🧪 **Expo Go** para testes em tempo real no celular
+
+</small>
+
+---
+
+#### 🚀 Como Rodar Localmente
+
+<small>
+
+1. 🧭 Clone o repositório:
 
 ```bash
-npm run reset-project
+git clone https://github.com/kaoan-eduardo/NoPodLocal.git
+cd NoPodLocal
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2. 📦 Instale as dependências:
+```bash
+npm install
+# ou
+yarn install
+```
 
-## Learn more
+3. 🧪 Rode o app com o Expo:
+```bash
+npx expo start
+```
+***Use o QR Code no terminal com o app Expo Go no seu celular, ou abra em um emulador.***
 
-To learn more about developing your project with Expo, look at the following resources:
+</small>
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+---
 
-## Join the community
+#### 📱 Navegação no App
 
-Join our community of developers creating universal apps.
+<small>
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- 🔑 Tela Inicial
+Interface simples e direta, sem login
+
+- 📆 Tela de Semana
+Exibe os dias da semana e a última resistência registrada localmente
+
+- 🧘 Tela de Respiração
+Círculo animado que infla e desinfla de forma suave, guiando sua respiração
+
+</small>
+
+---
+
+#### 🤝 Contribuindo
+
+<small>
+
+Contribuições são super bem-vindas! 😄
+
+1. 🍴 Faça um fork do projeto
+
+2. 📥 Clone o seu fork:
+```bash
+git clone https://github.com/seu-usuario/NoPodLocal.git
+
+```
+3. 🛠️ Crie uma nova branch:
+```bash
+git checkout -b minha-feature
+```
+4. 💾 Commit suas alterações:
+```bash
+git commit -m "Minha contribuição"
+```
+5.📤 Envie para o seu fork:
+```bash
+git push origin minha-feature
+```
+6. 📬 Abra um Pull Request
+
+</small>
+
+---
+
+#### ✨ Melhorias Futuras
+
+<small>
+
+🔁 Backup e sincronização na nuvem (opcional)
+
+🔔 Notificações locais com lembretes
+
+📈 Histórico visual do progresso
+
+🎨 Modo escuro e personalização de cores
+
+</small>
+
+---
+
+Feito com 💙 por [Kaoan](https://github.com/kaoan-eduardo)
